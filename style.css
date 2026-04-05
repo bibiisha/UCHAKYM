@@ -117,14 +117,14 @@ body {
   min-height: 80vh; /* Секция на 80% высоты экрана */
   display: flex;
   align-items: center;
-  background: url("port.jpg") no-repeat center center / cover; /* Замените на ваше фото */
+  background: url("image/port.jpg") no-repeat center center / cover; /* Замените на ваше фото */
   color: var(--white);
   overflow: hidden;
 }
 
 .home-hero {
   /* Путь к вашему файлу */
-  background-image: url("port.jpg");
+  background-image: url("image/port.jpg");
 
   /* Чтобы картинка не обрезалась некрасиво и заполняла блок */
   background-size: cover;
